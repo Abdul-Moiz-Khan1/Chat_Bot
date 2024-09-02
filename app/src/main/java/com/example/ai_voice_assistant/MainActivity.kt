@@ -12,8 +12,7 @@ import kotlinx.coroutines.launch
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
-    var apikey = "AIzaSyCpY0SCEpYNkH7zxB7Il4LzttrTklfSlAc"
-//    val apikey = BuildConfig.API_KEY
+    val apikey = "era"
     lateinit var chat: Chat
     var stringBuilder: StringBuilder = java.lang.StringBuilder()
 
